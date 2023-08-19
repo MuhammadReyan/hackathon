@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sectioned">
+
+        <div class="container ">
+            <div class="img1">
+                <img src="./assets/dF5SId3UHWd.svg" alt="">
+                <p class="tex">Bolgs helps you connect and share with the people in your life.</p>
+            </div>
+            <div class="boX1">
+                <br>
+                <input type="email number" placeholder="Email address or phone number" size="40" id="email"
+                    class="loginEmail">
+                <br>
+                <br>
+                <input type="password" placeholder="Password" size="40" id="password" class="loginPassword">
+                <br>
+                <button class="btn1" id="login">Log in</button>
+                <br>
+                <br>
+                <a href="#">Forgotten password?</a>
+                <br>
+                <div class="line">
+
+                    <hr>
+                </div>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@mdo">Create Account</button>
+            </div>
+            <p class="folx1"><strong>Creat a Page</strong> for a celebrity,brand or business</p>
+
+        </div>
+        <!--Sign UP  -->
+
+
+
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header modalHeading_S">
+                        <h5 class="modal-title" id="exampleModalLabel">SignUp</h5>
+                        <h6 class="modal-title" id="exampleModalLabel">It's quick and easy</h6>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">FirstName:</label>
+                                <input type="text" class="form-control firstName " id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Last Name:</label>
+                                <input type="text" class="form-control lastName" id="recipient-surname">
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Email:</label>
+                                <input type="text" class="form-control signupemail" id="recipient-email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Password : </label>
+                                <input type="password" class="form-control signUpPassword" id="recipient-mobile">
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">New Password:</label>
+                                <input type="password" class="form-control NewPassword" id="recipient-pass">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="signup">Signup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script type="module" src="./loginSignUp.js"></script>
+</body>
+
+</html>
